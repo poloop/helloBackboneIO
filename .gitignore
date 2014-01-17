@@ -1,0 +1,5 @@
+{ FOLDER TO IGNORE #
+####################
+
+database/
+node_modules/
