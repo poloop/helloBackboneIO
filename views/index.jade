@@ -1,0 +1,18 @@
+extends layout
+block content
+    h1= title
+    p Welcome to #{title}
+    p
+        h2 Add Contact
+        div(id="addContact")
+            span Prénom :
+                input(id="prenomContact", type="text", name="prenom")
+            br
+            span Nom :
+                input(id="nomContact", type="text", name="nom")
+            br
+            input(id="addContactButton", type="button", value="ADD")
+    p
+        h2 Contacts
+        div(id="contactsList")
+            ul

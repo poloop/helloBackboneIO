@@ -1,0 +1,16 @@
+{
+  "name": "hello-backbone-io",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mongodb": "*",
+    "backbone.io": "*",
+    "jade": "~1.1.4",
+    "express": "~3.4.8",
+    "mongoose": "~3.8.4",
+    "mubsub": "~1.0.4"
+  }
+}

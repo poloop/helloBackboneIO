@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.2/zepto.min.js")
+        script(src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js")
+        script(src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js")
+        script(src="/socket.io/socket.io.js")
+        script(src="/socket.io/backbone.io.js")
+    body
+        block content
+        script(src='/js/main.js')
